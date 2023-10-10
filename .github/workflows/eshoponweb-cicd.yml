@@ -1,12 +1,12 @@
 name: eShopOnWeb Build and Test
-#try2
+#try3
 #Triggers (uncomment line below to use it)
 on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-arhimec
-  LOCATION: westeurope
+  LOCATION: northeurope
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 9e355606-9aa6-42e5-b2a8-d25d3a0503d5
   WEBAPP-NAME: az400-webapp-arhimec
